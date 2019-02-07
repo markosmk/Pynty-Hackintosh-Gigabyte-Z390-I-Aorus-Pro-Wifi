@@ -3,6 +3,8 @@ Esta es una guia para construir un hackintosh con una placa madre Gigabyte z390 
 
 Esta es mi tercera build. Me alegro de que funcione bien, al principio, pensé en la adquisición de la i9-9900K o el i7-8700K. Pero, primero quería empezar con el i7-8700, y, luego actualizarlo como la placa base me permite.
 
+![Mi iMac](images/build.jpeg)
+
 ### Hardware que utilice
 - Phanteks Enthoo Evolv ITX Tempered Glass
 - Gigabyte Z390 I AORUS PRO WIFI Motherboard
@@ -14,7 +16,7 @@ Esta es mi tercera build. Me alegro de que funcione bien, al principio, pensé e
 - CORSAIR Hydro Series H100i v2 AIO Liquid CPU Cooler, 240mm
 - Crucial MX500 250GB 3D NAND SATA 2.5 Inch Internal SSD
 
-### lo que funciona
+### Lo que funciona
 - Aceleracion Grafica con RX 580, que es compatible de forma nativa.
 - Intel UHD 630
 - Ethernet integrado
@@ -29,6 +31,10 @@ Esta es mi tercera build. Me alegro de que funcione bien, al principio, pensé e
 - Handoff, Continuity, AirDrop: Estos no funcionan porque WiFi y Bluetooth son necesarios.
 - No he probado todos los puertos USB 3, así que no puedo decir que funcionan bien.
 
+### Instrucciones paso por paso
+Ver la seccion [instrucciones.md](instrucciones.md)
+
+### Importante
 Eres bienvenido a utilizar mi carpeta EFI. Sin embargo, asegurate de cambiar los siguientes datos en tu config.plist con Clover Configurator:
 - SerialNumber
 - BoardSerialNumber
