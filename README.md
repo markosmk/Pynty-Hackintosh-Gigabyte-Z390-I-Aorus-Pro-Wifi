@@ -30,6 +30,6 @@ Esta es mi tercera build. Me alegro de que funcione bien, al principio, pensé e
 - No he probado todos los puertos USB 3, así que no puedo decir que funcionan bien.
 
 Eres bienvenido a utilizar mi carpeta EFI. Sin embargo, asegurate de cambiar los siguientes datos en tu config.plist con Clover Configurator:
-• SerialNumber
-• BoardSerialNumber
-• SmUUID
+- SerialNumber
+- BoardSerialNumber
+- SmUUID
