@@ -1,4 +1,4 @@
-# Hackintosh-Gigabyte-Z390-I-Aorus-Pro-Wifi
+# PYnty-Mac - Hackintosh-Gigabyte-Z390-I-Aorus-Pro-Wifi
 Esta es una guia para construir un hackintosh con una placa madre Gigabyte z390 I Aorus pro wifi, es el formato mini itx.
 
 Esta es mi tercera build. Me alegro de que funcione bien, al principio, pensé en la adquisición de la i9-9900K o el i7-8700K. Pero, primero quería empezar con el i7-8700, y, luego actualizarlo como la placa base me permite.
