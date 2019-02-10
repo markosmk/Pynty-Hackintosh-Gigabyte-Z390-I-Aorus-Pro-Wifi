@@ -4,6 +4,7 @@ Aquí está el mapa de puertos USB para la placa madre Gigabyte Aorus z390 I Pro
 
 ![Mis puertos](images/portsusb.jpg)
 
+
  * **HS01/SS01:** Panel Frontal USB Type-C™ port, con USB 3.1 Gen 1 (F_USB30C)
  * **HS02/SS02:** Desconocido
  * **HS03/SS03:** Panel Posterior USB 3.1 (azul)
@@ -34,7 +35,7 @@ Aquí está el mapa de puertos USB para la placa madre Gigabyte Aorus z390 I Pro
  
 **Total:** 15 puertos (no necesito más)
 
-Estaría deshabilitando lo siguiente:
+### Estaría deshabilitando lo siguiente: ###
  * El puerto USB type-C en el panel posterior ya que no tengo dispositivos type-c
  * la conexion a USB Type-C para el panel frontal, ya que mi gabinete no tiene usb type-c adelante (Evolv ITX)
  * HS02/SS02 (nose en que parte esta ubicado)
@@ -48,7 +49,7 @@ Para utilizarlo simplemente reemplaza el kext USBInjectAll.kext por USBMap.kext.
 Te recomiendo que crees tu propio mapa con la herramienta arriba,
 
 ## Conclusión
-Es genial ya que no tienes que colocar mas codigo para las limitaciones de 15 puertos disponibles, porque con este mapeo solo utilizas 15, no necesitas mas. Ademas las velocidades de USb 3 se ven claramente. dejo a continuacion una prueba con los usb frontales, como pueden ver lectura 150Mb/s, los Usb2.0 llegan a 20Mb/s aprox. 
+Es genial ya que no tienes que colocar mas codigo para las limitaciones de 15 puertos, porque con este mapeo solo utilizarás 15, no necesitas mas. Ademas las velocidades de USb 3 se ven claramente. dejo a continuacion una prueba con los usb frontales, como pueden ver lecturas de 150Mb/s aprox, los Usb2.0 llegan a 20Mb/s aprox. 
 
-
+![pruebas usb3](images/pruebasusb.jpg)
 
