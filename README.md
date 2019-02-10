@@ -34,6 +34,9 @@ Esta es mi tercera build. Me alegro de que funcione bien, al principio, pensé e
 ### Instrucciones paso por paso
 Ver la seccion [instrucciones.md](instrucciones.md)
 
+### Mapeo USB
+El mapeo lo limite a 15 usb para evitar colocar mas KextsToPatch en config.plist, ademas que los usb3.0 funcionan espectacular. Ver la seccion [Mapeo_Puertos_USB.md](Mapeo_Puertos_USB.md)
+
 ### Importante
 Eres bienvenido a utilizar mi carpeta EFI. Sin embargo, asegurate de cambiar los siguientes datos en tu config.plist con Clover Configurator:
 - SerialNumber
