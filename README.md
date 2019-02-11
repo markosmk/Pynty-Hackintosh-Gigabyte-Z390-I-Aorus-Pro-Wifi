@@ -44,4 +44,4 @@ Eres bienvenido a utilizar mi carpeta EFI. Sin embargo, asegurate de cambiar los
 - BoardSerialNumber
 - SmUUID
 
-(**Importante**: Al editar config.plist debes cambiar los valores mencionados anteriormente ya que estan vacios, si utilizas clover configurator puedes crearlos aleatoriamente)
+(Al editar config.plist debes cambiar los valores mencionados anteriormente ya que estan vacios, si utilizas clover configurator puedes crearlos aleatoriamente)
