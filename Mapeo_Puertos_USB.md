@@ -45,11 +45,16 @@ Aquí está el mapa de puertos USB para la placa madre Gigabyte Aorus z390 I Pro
 
 ## Como utilizar este mapeo
 
-Para utilizarlo simplemente reemplaza el kext USBInjectAll.kext por USBMap.kext. Ten en cuenta que deshabilitaras los puertos type-C, este mapeo es particularmente para mi uso, 
-Te recomiendo que crees tu propio mapa con la herramienta arriba,
+Para utilizarlo simplemente reemplaza el kext USBInjectAll.kext por USBMap.kext. Ten en cuenta que deshabilitaras los puertos type-C, este mapeo es particularmente para mi uso ya que como explique anteriormente no tengo dispositivos con type-c. Tambien debes colocar los archivos SSDT-USBX.aml y SSDT-EC.aml en ACPI/patched/.
+
+Te recomiendo que crees tu propio mapa con la herramienta de arriba. Sin embargo si quieres utilizar mis archivos lo puedes encontrar en la carpeta [`Utilidades`](Utilidades/)
+
+## Hacer tu propio Mapeo con **USB.plist**
+
+En la carpeta **Utilidades** incluí el archivo [`USB.plist`](Utilidades/USB.plist) que generé con USBMap. Esto es específicamente de la placa madre Z390 I Aorus Pro Wifi y NO funcionará con otras placas madres similares (como la Master, Elite o Pro). Cada puerto esta nombrado de acuerdo a lo que tenia conectado. Para usarlo, simplemente copie el archivo  USB.plist en USBMap/Scripts. Al usar mi mapa USB, no vas a perder tiempo descubriendo tus puertos.
 
 ## Conclusión
-Es genial ya que no tienes que colocar mas codigo para las limitaciones de 15 puertos, porque con este mapeo solo utilizarás 15, no necesitas mas. Ademas las velocidades de USb 3 se ven claramente. dejo a continuacion una prueba con los usb frontales, como pueden ver lecturas de 150Mb/s aprox, los Usb2.0 llegan a 20Mb/s aprox. 
+Es genial ya que no tienes que colocar mas codigo para las limitaciones de 15 puertos, porque con este mapeo solo utilizarás 15, no necesitás más. Ademas las velocidades de USb 3 se ven claramente. dejo a continuacion una prueba con los usb frontales, como pueden ver lecturas de 150Mb/s aprox, los Usb2.0 llegan a 20Mb/s aprox. 
 
 ![pruebas usb3](images/pruebasusb.jpg)
 
