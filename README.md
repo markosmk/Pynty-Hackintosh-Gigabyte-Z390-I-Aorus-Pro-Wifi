@@ -18,27 +18,29 @@ Esta es mi tercera build. Me alegro de que funcione bien, al principio, pensé e
 
 ### Lo que funciona
 - Aceleracion Grafica con RX 580, que es compatible de forma nativa.
-- Intel UHD 630
+- Intel UHD 630 (Aceleracion Grafica)
 - Ethernet integrado
 - Audio integrado
 - Suspencion, Reactivación, reinicio y apagado. Despertar de la suspencion requiere una pulsación de una tecla.
-- Quick Look, Preview
+- Quick Look y Vista Previa
 - iMessage, FaceTime, App Store, iTunes.
-- TRIM está habilitado en NVMe Samsung sin parches.
+- TRIM está habilitado en NVMe Samsung sin parches (puedes ver las velocidades en la imagen a continuación realizadas con BlackmagicDesign)
+
+![resultados nvme](images/nvme.jpg)
 
 ### Lo que no funciona
 - Wifi y Bluetooth integrado (Esto no funciona de forma nativa, ya que Gigabyte incorporo el nuevo módulo WIFI con CVNi, cuando Apple lo actualice en sus nuevos MacBooks, seguramente aparecera un adaptador compatible para que podamos incorporar una placa Broadcom.)
 - Handoff, Continuity, AirDrop: Estos no funcionan porque WiFi y Bluetooth son necesarios.
-- No he probado todos los puertos USB 3, así que no puedo decir que funcionan bien.
 
 ### Instrucciones paso por paso
 Ver la seccion [instrucciones.md](instrucciones.md)
 
 ### Mapeo USB
-El mapeo lo limite a 15 usb para evitar colocar mas KextsToPatch en config.plist, ademas que los usb3.0 funcionan espectacular. Ver la seccion [Mapeo_Puertos_USB.md](Mapeo_Puertos_USB.md)
+El mapeo lo limite a 15 puertos usb, los usb3.0 funcionan espectacular. Ver la seccion [Mapeo_Puertos_USB.md](Mapeo_Puertos_USB.md) para ver mas detalles.
 
 ### Importante
 Eres bienvenido a utilizar mi carpeta EFI. Sin embargo, asegurate de cambiar los siguientes datos en tu config.plist con Clover Configurator:
 - SerialNumber
 - BoardSerialNumber
 - SmUUID
+(**Importante**: Al editar config.plist debes cambiar los valores mencionados anteriormente ya que estan vacios, si utilizas clover configurator puedes elegirlos aleatoriamente)
