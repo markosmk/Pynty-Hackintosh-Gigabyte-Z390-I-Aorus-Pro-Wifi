@@ -36,7 +36,7 @@ Esta es mi tercera build. Me alegro de que funcione bien, al principio, pensé e
 Ver la seccion [instrucciones.md](instrucciones.md)
 
 ### Mapeo USB
-El mapeo lo limite a 15 puertos usb, los usb3.0 funcionan espectacular. Ver la seccion [Mapeo_Puertos_USB.md](Mapeo_Puertos_USB.md) para ver mas detalles.
+El mapeo lo limite a 15 puertos usb, los usb 3.0 funcionan espectacular. Creo que fue la forma mas eficiente para deshacerme de las actualizaciones interminables del "parche de límite de puerto USB" cada vez que MacOS se actualiza. Ver la seccion [Mapeo_Puertos_USB.md](Mapeo_Puertos_USB.md) para más detalles.
 
 ### Importante
 Eres bienvenido a utilizar mi carpeta EFI. Sin embargo, asegurate de cambiar los siguientes datos en tu config.plist con Clover Configurator:
