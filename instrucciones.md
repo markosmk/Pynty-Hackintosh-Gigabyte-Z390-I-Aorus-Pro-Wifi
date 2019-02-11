@@ -115,4 +115,4 @@ Estos son kexts que no estoy utilizando, pero que podrían ser útiles para ti d
 * [La comunidad de Tonymacx86](https://www.tonymacx86.com/)
 
 ## A Futuro
-Creo que esta guía aun esta incompleta. Muchos lo han utilizado con éxito ya pero falta el mapeo de los USB ademas que tambien dejar wifi y bluetooh nativos y funcionando. Actualizaré continuamente estos documentos según sea necesario aunque yo en particular tengo el sistema estable y trabajando con el continuamente sin problemas.
+Creo que esta guía aun esta incompleta. Muchos lo han utilizado con éxito ya que falta dejar wifi y bluetooh nativos y funcionando. Actualizaré continuamente estos documentos según sea necesario aunque yo en particular tengo el sistema estable y trabajando con el continuamente sin problemas.
