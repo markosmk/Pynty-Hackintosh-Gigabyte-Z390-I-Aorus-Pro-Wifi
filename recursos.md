@@ -12,7 +12,7 @@
 
 - [hackintool](https://www.insanelymac.com/forum/topic/335018-hackintool-v182/)
 
-- Uso de OsxAptioFix2Drv-free2000 [hackintool](https://www.tonymacx86.com/threads/gigabyte-z390-aorus-pro-wifi-cannot-get-installer-to-boot.264908/post-1900005)
+- [Uso de OsxAptioFix2Drv-free2000](https://www.tonymacx86.com/threads/gigabyte-z390-aorus-pro-wifi-cannot-get-installer-to-boot.264908/post-1900005)
 
 Excelente temas donde el autor documenta sus experimentos, fracasos y éxitos.
 
