@@ -12,6 +12,8 @@
 
 - [hackintool](https://www.insanelymac.com/forum/topic/335018-hackintool-v182/)
 
+- Uso de OsxAptioFix2Drv-free2000 [hackintool](https://www.tonymacx86.com/threads/gigabyte-z390-aorus-pro-wifi-cannot-get-installer-to-boot.264908/post-1900005)
+
 Excelente temas donde el autor documenta sus experimentos, fracasos y éxitos.
 
 - [Gigabyte Designare Z390 (Thunderbolt 3) + i7-9700K + AMD RX 580](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/)
