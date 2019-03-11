@@ -94,7 +94,7 @@ Y eso es todo, deberias poder iniciar perfectamente desde el ssd donde esta inst
 Todos los kexts deben copiarse en`/EFI/CLOVER/kexts/Other`. Siempre que copie kexts desde una fuente en línea, asegúrate de copiar la versión **Release**.
 
 * [USBInjectAll.kext](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/)
-    - This is necessary to exclude our onboard Bluetooth adapter (HS14).
+    - Esto es necesario para excluir nuestro adaptador bluetooth interno (HS14).
 * [IntelMausiEthernet.kext](https://bitbucket.org/RehabMan/os-x-intel-network/downloads/)
     -  Esto es para nuestro Ethernet/LAN integrado
 * [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
