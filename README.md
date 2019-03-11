@@ -23,7 +23,7 @@ Esta es mi tercera build. Me alegro de que funcione bien, al principio, pensé e
 - Audio integrado
 - Suspencion, Reactivación, reinicio y apagado. Despertar de la suspencion requiere una pulsación de una tecla.
 - Quick Look y Vista Previa
-- iMessage, FaceTime, App Store, iTunes.
+- iMessage, FaceTime, App Store, ICloud, iTunes.
 - TRIM está habilitado en NVMe Samsung sin parches (puedes ver las velocidades en la imagen a continuación realizadas con BlackmagicDesign)
 
 ![resultados nvme](images/nvme.jpg)
@@ -34,6 +34,9 @@ Esta es mi tercera build. Me alegro de que funcione bien, al principio, pensé e
 
 ### Instrucciones paso por paso
 Ver la seccion [instrucciones.md](instrucciones.md)
+
+### Pruebas de Rendimiento (Benchmark)
+Ver la seccion [benchmarks.md](benchmarks.md)
 
 ### Mapeo USB
 El mapeo lo limite a 15 puertos usb, los usb 3.0 funcionan espectacular. Creo que fue la forma mas eficiente para deshacerme de las actualizaciones interminables del "parche de límite de puerto USB" cada vez que MacOS se actualiza. Ver la seccion [Mapeo_Puertos_USB.md](Mapeo_Puertos_USB.md) para más detalles.
