@@ -6,11 +6,11 @@ Las pruebas de Geekbench son realizadas para evualuar y comparar resultados con 
 
 - CPU 8700 (no K)
 
-![bench4](images/Benchmark-4.png)
+![bench4](images/Benchmark-04.png)
 
 - GPU 2 -Rx 580 Sapphire
 
-![bench5](images/Benchmark-5.png)
+![bench5](images/Benchmark-05.png)
 
 - GPU 1 -Intel UHD Graphics 630 (Puedes ver el recuadro en violeta que se puede ver funcionando)
 
