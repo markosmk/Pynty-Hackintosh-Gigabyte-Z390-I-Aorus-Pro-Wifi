@@ -4,7 +4,7 @@
 
 Las pruebas de Geekbench son realizadas para evualuar y comparar resultados con otros hardware similares, esto puede variar si tu tienes configurado otro SMBios
 
-- CPU 8700 (no K)
+- CPU 8700 (no K) https://browser.geekbench.com/v4/cpu/12435066
 
 ![bench4](images/Benchmark-04.png)
 
