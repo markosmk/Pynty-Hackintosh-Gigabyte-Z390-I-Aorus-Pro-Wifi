@@ -4,8 +4,25 @@
 <dict>
 	<key>ACPI</key>
 	<dict>
+		<key>AutoMerge</key>
+		<false/>
 		<key>DSDT</key>
 		<dict>
+			<key>Fixes</key>
+			<dict>
+				<key>AddMCHC</key>
+				<true/>
+				<key>FixHPET</key>
+				<true/>
+				<key>FixIPIC</key>
+				<true/>
+				<key>FixRTC</key>
+				<true/>
+				<key>FixShutdown</key>
+				<true/>
+				<key>FixTMR</key>
+				<true/>
+			</dict>
 			<key>Patches</key>
 			<array>
 				<dict>
@@ -51,6 +68,8 @@
 		</array>
 		<key>FixHeaders</key>
 		<true/>
+		<key>HaltEnabler</key>
+		<false/>
 		<key>SSDT</key>
 		<dict>
 			<key>Generate</key>
@@ -63,13 +82,17 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 -v slide=0 keepsyms=1 debug=0x100 shikigva=40</string>
+		<string>-v dart=0 slide=0 keepsyms=1 debug=0x100 shikigva=40</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
+		<key>Legacy</key>
+		<string>LegacyBiosDefault</string>
+		<key>NeverHibernate</key>
+		<true/>
 		<key>Timeout</key>
-		<integer>3</integer>
+		<integer>2</integer>
 		<key>XMPDetection</key>
-		<string>Yes</string>
+		<false/>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -79,6 +102,24 @@
 			<integer>1</integer>
 			<key>ResetHDA</key>
 			<true/>
+		</dict>
+		<key>Properties</key>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>
+				AwCSPg==
+				</data>
+				<key>framebuffer-patch-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-stolenmem</key>
+				<data>
+				AAAwAQ==
+				</data>
+			</dict>
 		</dict>
 		<key>USB</key>
 		<dict>
@@ -105,27 +146,20 @@
 			<key>Entries</key>
 			<true/>
 			<key>Legacy</key>
-			<string>First</string>
+			<false/>
+			<key>Linux</key>
+			<true/>
 			<key>Tool</key>
 			<true/>
 		</dict>
-		<key>ScreenResolution</key>
-		<string></string>
 		<key>Theme</key>
-		<string>embedded</string>
+		<string>ClassicalDark</string>
 	</dict>
-	<key>Graphics</key>
-	<dict>
-		<key>Inject</key>
-		<dict>
-			<key>ATI</key>
-			<false/>
-			<key>Intel</key>
-			<true/>
-			<key>NVidia</key>
-			<false/>
-		</dict>
-	</dict>
+    <key>Graphics</key>
+    <dict>
+        <key>Inject</key>
+        <false/>
+    </dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
 		<key>AppleRTC</key>
@@ -161,7 +195,7 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>MLB</key>
-		<string>{{Coloca aqui el numero de serie de la placa}}</string>
+		<string>{{ YOUR MLB }}</string>
 		<key>ROM</key>
 		<string>UseMacAddr0</string>
 	</dict>
@@ -208,9 +242,11 @@
 		<key>ProductName</key>
 		<string>iMac18,3</string>
 		<key>SerialNumber</key>
-		<string>{{Genera uno nuevo}}</string>
+		<string>{{ YOUR SERIAL }}</string>
 		<key>SmUUID</key>
-		<string>{{Genera uno nuevo}}</string>
+		<string>{{ YOUR SmUUID }}</string>
+		<key>Trust</key>
+		<false/>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
