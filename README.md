@@ -3,6 +3,10 @@ Esta es una guia para construir un hackintosh con una placa madre Gigabyte z390 
 
 Esta es mi tercera build. Me alegro de que funcione bien, al principio, pensé en la adquisición de la i9-9900K o el i7-8700K. Pero, primero quería empezar con el i7-8700, y, luego actualizarlo como la placa base me permite.
 
+> Actualizacion 04/01/2021: Incorpore una tarjeta de video AMD RADEON VEGA 56 Asrock Panthom Gaming funciono de maravilla, plug and play, tambien incorpore una disco nvme ssd wd blue de 1tb en la ranura detras del la placa madre, mantuve Mojave porque no tenia necesidad de actualizar
+ 
+> Actualizacion 21/11/2022: Realice la actualizacion a Ventura v 13.0.1, funciono todo impecable, hice una instalacion limpia, es decir formatie primero el nvme samsung y luego instale ventura, no utlice clover utilice opencore, en la documentacion de opencore esta muy bien explicado el proceso y los problemas que puedan surgir
+
 ![Mi iMac](images/build.jpeg)
 
 ### Hardware que utilice
